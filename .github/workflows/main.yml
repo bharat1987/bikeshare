@@ -34,5 +34,5 @@ jobs:
         black bikeshare_project/*.py
     - name: Lint with pylint
       run: |
-        pylint --disable=W,R,C *.py
+        pylint --disable=W,R,C bikeshare_project/*.py
     
