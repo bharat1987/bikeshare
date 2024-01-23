@@ -31,7 +31,7 @@ jobs:
         pytest
     - name: Formatting with Black
       run: |
-        black *.py
+        black bikeshare_project/*.py
     - name: Lint with pylint
       run: |
         pylint --disable=W,R,C *.py
